@@ -25,7 +25,7 @@
 
 ### 2. HEAT 악성 URL 탐지 모델 (DeBERTa Model)
 * **모델 구조**: **DeBERTa-v3-Large** 아키텍처 기반 설계 
-* **학습 기법**: $EarlyStopping$, $Learning$ $Rate$ $Scheduler$, $Dropout$ 적용으로 과적합 방지 및 학습 안정화 
+* **학습 기법**: EarlyStopping, Learning Rate Scheduler, Dropout 적용으로 과적합 방지 및 학습 안정화 
 * **경량화**: **FP16 Mixed Precision** 기법을 적용하여 GPU 자원 효율성을 높이고 추론 속도를 대폭 개선
 
 ### 3. 실시간 URL 탐지 웹 서비스 (Web Service)
@@ -44,3 +44,16 @@ v1~v3 단계의 고도화 과정을 통해 대규모 데이터셋에서 매우 �
 * **$AUC$**: **0.996** 
 
 ---
+
+## 👨‍💻 Contributors
+본 프로젝트는 **상명대학교 정보보안공학과** 캡스톤 디자인 팀 프로젝트(팀명: 원팀)로 진행되었습니다. 
+
+### 👩‍💻 Team Members
+* **곽지현 (Me)**: FastAPI 기반 실시간 탐지 웹 서비스 개발 | DeBERTa 모델 추가 학습 및 성능 최적화 수행
+* **김예지**: DeBERTa-v3-Large 기반 악성 URL 탐지 모델 설계 및 메인 학습 
+* **고가은**: 데이터 전처리 및 정규화 알고리즘 설계 | 오탐·미탐 URL 전수 검수 및 데이터셋 보강 작업
+
+> **공동 작업**: 178만 건 대규모 데이터셋 수집, 프로젝트 최종 발표 자료 제작
+
+### 🎓 Advisor
+* **박진성 교수님** 
