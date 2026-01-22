@@ -1,0 +1,18 @@
+# === Core ===
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+
+# === Hugging Face / Transformers ===
+transformers==4.57.0
+tokenizers==0.22.1
+sentencepiece
+safetensors
+
+# === PyTorch (CPU용) ===
+torch --index-url https://download.pytorch.org/whl/cpu
+
+# === Utility ===
+accelerate==1.10.1
+numpy
+pydantic==2.7.4
+
