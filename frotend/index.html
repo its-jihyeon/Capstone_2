@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEAT URL Detector</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Hahmlet:wght@100..900&display=swap" rel="stylesheet">
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="/" class="navbar-logo">
+                🛡️ One Team
+            </a>
+            <ul class="navbar-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="#detector" id="nav-analyze-link">Analyze</a></li>
+                <li><a href="#tech" id="nav-tech-link">Tech</a></li>
+                <li><a href="#benefits" id="nav-benefits-link">Benefits</a></li>
+            </ul>
+        </div>
+    </nav>
+ 
+    <header class="main-header">
+        <div class="header-text-container">
+            <div class="header-text">
+                <h1 class="logo">HEAT Attack <br> URL Detector</h1>
+                <p class="tagline">Real-time detection for malicious and phishing URLs. <br>
+                    Your first line of defense against online threats.
+                </p>
+                <a href="#detector" class="cta-button">Analyze Now</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="detector" class="detector-section">
+        <div class="detector-card">
+            <div class="detector-container">
+
+                <div class="input-area">
+                    <h2>Analyze a URL</h2>
+                    <p>Enter a URL below to check for potential threats in real-time.</p>
+                    <div class="detector-wrapper">
+                        <input type="text" id="urlInput" placeholder="Enter URL to analyze...">
+                        <button onclick="analyzeUrl()">Analyze</button>
+                    </div>
+                    <p class="error-message" id="errorMessage"></p>
+                </div>
+
+                <div class="result-card">
+                    <div id="resultArea">
+                        <div class="result-initial">
+                            <h4>Analysis Result</h4>
+                            <p>Results will be displayed here.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <section id="tech" class="tech-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technology</h2>
+            </div>
+
+            <div class="tech-cards-grid">
+                <div class="tech-card">
+                    <p class="card-subtitle">Core Model</p>
+                    <h3>핵심 모델</h3>
+                    <p class="card-description">최신 Transformer 기반 DeBERTa-v3 모델을 적용하여 URL의 의미적 맥락과 숨은 위험 패턴을 정밀하게 학습하고, 지능화된 악성 URL을 높은 정확도로 탐지합니다.</p>
+                </div>
+
+                <div class="tech-card">
+                    <p class="card-subtitle">How it Works</p>
+                    <h3>작동 원리</h3>
+                    <p class="card-description">사용자가 입력한 URL을 토큰 단위로 분석하고, Transformer가 문맥적 특징을 추출하여 정상/악성을 실시간으로 분류합니다.</p>
+                </div>
+
+                <div class="tech-card">
+                    <p class="card-subtitle">Tech Stack</p>
+                    <h3>기술 스택</h3>
+                    <p class="card-description">모델 학습은 PyTorch와 Hugging Face 기반으로 진행되며, FastAPI와 React를 통해 웹 서비스화되었습니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="content-section alt-bg">
+    <div class="container">
+        <div class="section-header">
+            <h2>Expected Benefits</h2>
+        </div>
+        <div class="feature-grid">
+        <div class="feature-item">
+            <span class="edge edge-left"></span>
+            <svg class="circle-anim" viewBox="0 0 450 450">
+            <path class="arc arc-top"    d="M 1.75 225 A 223.25 223.25 0 0 1 448.25 225" pathLength="1"></path>
+            <path class="arc arc-bottom" d="M 448.25 225 A 223.25 223.25 0 0 1 1.75 225"  pathLength="1"></path>
+            </svg>
+            <h3><strong>Proactive <br> Threat Defense</strong></h3>
+            <p>선제적 위협 방어</p>
+        </div>
+
+        <div class="feature-item">
+            <svg class="circle-anim" viewBox="0 0 450 450">
+            <path class="arc arc-top"    d="M 1.75 225 A 223.25 223.25 0 0 1 448.25 225" pathLength="1"></path>
+            <path class="arc arc-bottom" d="M 448.25 225 A 223.25 223.25 0 0 1 1.75 225"  pathLength="1"></path>
+            </svg>
+            <h3><strong>Context-aware <br> Detection</strong></h3>
+            <p>문맥 기반 지능형 탐지</p>
+        </div>
+
+        <div class="feature-item">
+            <svg class="circle-anim" viewBox="0 0 450 450">
+            <path class="arc arc-top"    d="M 1.75 225 A 223.25 223.25 0 0 1 448.25 225" pathLength="1"></path>
+            <path class="arc arc-bottom" d="M 448.25 225 A 223.25 223.25 0 0 1 1.75 225"  pathLength="1"></path>
+            </svg>
+            <span class="edge edge-right"></span>
+            <h3><strong>Secure Web <br> Navigation</strong></h3>
+            <p>안전한 웹 브라우징 경험</p>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p><strong>One Team</strong> — Transformer 기반 HEAT 공격 URL 자동 탐지 시스템</p>
+            <p>© 2025 One Team. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
