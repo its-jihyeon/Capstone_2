@@ -12,7 +12,7 @@
 ---
 
 ## 📂 자료 (Materials)
-* [**📊 프로젝트 발표 자료 (PDF)**](./PPT/)
+* [**📊 프로젝트 발표 자료 (PDF)**](./PPT/Presentation_Malicious_URL.pdf)
   
 ---
 ## 🛠 시스템 아키텍처 (System Architecture)
