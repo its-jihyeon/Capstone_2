@@ -13,6 +13,7 @@
 
 ## 📂 자료 (Materials)
 * [**📊 프로젝트 발표 자료 (PDF)**](./PPT/Presentation_Malicious_URL.pdf)
+* [**📺 실시간 악성 URL 탐지 시스템 시연 영상**](./docs/Demo_Video.mp4)
   
 ---
 ## 🛠 시스템 아키텍처 (System Architecture)
