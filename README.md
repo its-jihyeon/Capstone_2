@@ -44,6 +44,8 @@ v1~v3 단계의 고도화 과정을 통해 대규모 데이터셋에서 매우 �
 * **F1 Score**: **96%** 
 * **AUC**: **0.996** 
 
+<img src="results/Model_Performance_Table.png" width="600" alt="Training Log Screenshot">
+
 ---
 
 ## 👨‍💻 Contributors
