@@ -46,17 +46,3 @@ v1~v3 단계의 고도화 과정을 통해 대규모 데이터셋에서 매우 �
 
 <img src="training/results/Model_Performance_Table.png" width="600" alt="Training Log Screenshot">
 
----
-
-## 👨‍💻 Contributors
-본 프로젝트는 **상명대학교 정보보안공학과** 캡스톤 디자인 팀 프로젝트로 진행되었습니다. 
-
-### 👩‍💻 Team Members
-* **곽지현 (Me)**: FastAPI 기반 실시간 탐지 웹 서비스 개발 | DeBERTa 모델 추가 학습 및 성능 최적화 수행
-* **김예지**: DeBERTa-v3-Large 기반 악성 URL 탐지 모델 설계 및 메인 학습 
-* **고가은**: 데이터 전처리 및 정규화 알고리즘 설계 | 오탐·미탐 URL 전수 검수 및 데이터셋 보강 작업
-
-> **공동 작업**: 178만 건 대규모 데이터셋 수집, 프로젝트 최종 발표 자료 제작
-
-### 🎓 Advisor
-* **박진성 교수님** 
